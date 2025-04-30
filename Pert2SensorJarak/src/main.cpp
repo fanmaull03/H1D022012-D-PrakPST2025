@@ -6,6 +6,7 @@ int ledPin = D6;
 
 int distance;
 long duration;
+
 void setup() {
   pinMode(echoPin, INPUT);
   pinMode(trigPin, OUTPUT);
